@@ -27,6 +27,7 @@ int main()
                 } else {
                     display_board(board);
                     f = 1;
+                    check_kings(board);
                 }
             }
         } else if (f == 1) {
@@ -42,6 +43,7 @@ int main()
                 } else {
                     display_board(board);
                     f = 0;
+                    check_kings(board);
                 }
             }
         }
