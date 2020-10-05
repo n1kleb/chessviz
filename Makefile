@@ -28,6 +28,6 @@ testRun:
 	./bin/chessviz-test
 
 clean:
-	rm -rf build/test/board_test.o bin/chess bin/chess-test build/src/board.o build/src/main.o build/src/board_print_plain.o build/test/main.o
+	rm -rf build/test/board_test.o bin/chessviz bin/chessviz-test build/src/board.o build/src/main.o build/src/board_print_plain.o build/test/main.o
 
 .PHONY: all clean
