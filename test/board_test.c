@@ -199,7 +199,7 @@ CTEST(step_white, WHITE_KING_INCORRECT)
 CTEST(step_black, BLACK_KING_CORRECT)
 {
     init_board(board);
-step_black(board, 5, 2, 5, 3);
+step_black(board, 125, 2, 5, 3);
     int result = step_black(board, 5, 1, 5, 2);
     int expected = 1;
     ASSERT_EQUAL(expected, result);
